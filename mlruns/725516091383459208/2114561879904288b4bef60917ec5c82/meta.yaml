@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Dell/AI%20course%20Digicrome/one%20python/NextHike%20Projects/Project%206/mlruns/725516091383459208/2114561879904288b4bef60917ec5c82/artifacts
+end_time: 1724682223589
+entry_point_name: ''
+experiment_id: '725516091383459208'
+lifecycle_stage: active
+run_id: 2114561879904288b4bef60917ec5c82
+run_name: LSTM Model for Rossmann Sales
+run_uuid: 2114561879904288b4bef60917ec5c82
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724682129138
+status: 3
+tags: []
+user_id: Dell

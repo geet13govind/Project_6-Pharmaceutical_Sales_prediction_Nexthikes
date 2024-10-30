@@ -1,0 +1,174 @@
+2024-07-08 16:30:56,387 - INFO - Logger initialized and ready to log the steps.
+2024-07-08 16:30:56,910 - INFO - Loading datasets...
+2024-07-08 16:30:58,096 - INFO - Datasets loaded successfully.
+2024-07-08 16:30:58,096 - INFO - train dataset shape: (1017209, 9)
+2024-07-08 16:30:58,096 - INFO - store dataset shape: (1115, 10)
+2024-07-08 16:30:58,096 - INFO - test dataset shape: (41088, 8)
+2024-07-08 16:30:58,096 - INFO - sample_submission dataset shape: (41088, 2)
+2024-07-08 16:30:58,392 - INFO - Datasets merged successfully.
+2024-07-08 16:30:58,392 - INFO - train_store dataset shape: (1017209, 18)
+2024-07-08 16:30:58,392 - INFO - test_store dataset shape: (41088, 18)
+2024-07-08 16:30:59,639 - INFO - Handling missing values...
+2024-07-08 16:30:59,685 - INFO - Filled 'CompetitionDistance' missing values with median.
+2024-07-08 16:30:59,701 - INFO - Filled 'CompetitionOpenSinceMonth' and 'CompetitionOpenSinceYear' with 0.
+2024-07-08 16:30:59,795 - INFO - Filled promo-related missing values with default values.
+2024-07-08 16:30:59,810 - INFO - Filled 'Open' missing values with 0.
+2024-07-08 16:30:59,935 - INFO - Handling outliers...
+2024-07-08 16:30:59,966 - INFO - Replaced outliers in 'Sales' with median.
+2024-07-08 16:30:59,982 - INFO - Replaced outliers in 'CompetitionDistance' with median.
+2024-07-08 16:30:59,982 - INFO - Performing feature engineering...
+2024-07-08 16:31:02,156 - INFO - Created 'CompetitionOpenSinceDate'.
+2024-07-08 16:31:03,015 - INFO - Extracted date-related features: Year, Month, Day, WeekOfYear, DayOfWeek.
+2024-07-08 16:31:03,015 - INFO - Handling missing values...
+2024-07-08 16:31:03,015 - INFO - Filled 'CompetitionDistance' missing values with median.
+2024-07-08 16:31:03,156 - INFO - Filled 'CompetitionOpenSinceMonth' and 'CompetitionOpenSinceYear' with 0.
+2024-07-08 16:31:03,156 - INFO - Filled promo-related missing values with default values.
+2024-07-08 16:31:03,156 - INFO - Filled 'Open' missing values with 0.
+2024-07-08 16:31:03,156 - INFO - Handling outliers...
+2024-07-08 16:31:03,156 - INFO - Replaced outliers in 'Sales' with median.
+2024-07-08 16:31:03,156 - INFO - Replaced outliers in 'CompetitionDistance' with median.
+2024-07-08 16:31:03,156 - INFO - Performing feature engineering...
+2024-07-08 16:31:03,234 - INFO - Created 'CompetitionOpenSinceDate'.
+2024-07-08 16:31:03,281 - INFO - Extracted date-related features: Year, Month, Day, WeekOfYear, DayOfWeek.
+2024-07-08 16:31:03,281 - INFO - Preprocessing pipeline applied successfully.
+2024-07-08 16:31:03,281 - INFO - Processed train_store dataset shape: (1017209, 23)
+2024-07-08 16:31:03,281 - INFO - Processed test_store dataset shape: (41088, 23)
+2024-07-08 16:31:03,861 - INFO - Analyzing distribution of promotions in training and test sets...
+2024-07-08 16:31:06,151 - INFO - Plotted distribution of promotions in training and test sets.
+2024-07-08 16:31:06,151 - INFO - Graph formed successfully.
+2024-07-08 16:31:06,178 - INFO - Analyzing sales behavior around holidays...
+2024-07-08 16:31:07,613 - INFO - Plotted sales behavior around holidays.
+2024-07-08 16:31:07,660 - INFO - Graph formed successfully.
+2024-07-08 16:31:19,369 - INFO - Analyzing seasonal purchase behaviors...
+2024-07-08 16:31:20,714 - INFO - Plotted seasonal purchase behaviors.
+2024-07-08 16:31:20,714 - INFO - Graph formed successfully.
+2024-07-08 16:31:21,797 - INFO - Analyzing correlation between sales and number of customers...
+2024-07-08 16:31:21,878 - INFO - Correlation between Sales and Number of Customers: 0.75
+2024-07-08 16:31:27,473 - INFO - Plotted correlation between sales and number of customers.
+2024-07-08 16:31:27,473 - INFO - Graph formed successfully.
+2024-07-08 16:31:27,505 - INFO - Analyzing the effect of promotions on sales...
+2024-07-08 16:31:28,190 - INFO - Plotted the effect of promotions on sales.
+2024-07-08 16:31:28,190 - INFO - Graph formed successfully.
+2024-07-08 16:31:29,936 - INFO - Graph formed successfully.
+2024-07-08 16:31:29,975 - INFO - Analyzing customer behavior during store open and closing times...
+2024-07-08 16:31:31,437 - INFO - Plotted customer behavior during store open and closing times.
+2024-07-08 16:31:31,484 - INFO - Graph formed successfully.
+2024-07-08 16:31:53,164 - INFO - Graph formed successfully.
+2024-07-08 16:31:54,056 - INFO - Analyzing the effect of assortment type on sales...
+2024-07-08 16:31:55,108 - INFO - Plotted effect of assortment type on sales.
+2024-07-08 16:31:55,108 - INFO - Graph formed successfully.
+2024-07-08 16:31:55,145 - INFO - Analyzing the impact of competitor distance on sales...
+2024-07-08 16:32:00,190 - INFO - Plotted impact of competitor distance on sales.
+2024-07-08 16:32:00,205 - INFO - Graph formed successfully.
+2024-07-08 16:32:00,244 - INFO - Analyzing sales trend for stores with new competitors...
+2024-07-08 16:32:01,728 - INFO - Plotted sales trend for stores with new competitors.
+2024-07-08 16:32:01,775 - INFO - Graph formed successfully.
+2024-07-29 19:59:56,693 - INFO - Logger initialized and ready to log the steps.
+2024-07-29 20:00:03,392 - INFO - Loading datasets...
+2024-07-29 20:00:04,582 - INFO - Datasets loaded successfully.
+2024-07-29 20:00:04,582 - INFO - train dataset shape: (1017209, 9)
+2024-07-29 20:00:04,582 - INFO - store dataset shape: (1115, 10)
+2024-07-29 20:00:04,582 - INFO - test dataset shape: (41088, 8)
+2024-07-29 20:00:04,582 - INFO - sample_submission dataset shape: (41088, 2)
+2024-07-29 20:00:05,067 - INFO - Datasets merged successfully.
+2024-07-29 20:00:05,067 - INFO - train_store dataset shape: (1017209, 18)
+2024-07-29 20:00:05,067 - INFO - test_store dataset shape: (41088, 18)
+2024-07-29 20:04:41,506 - INFO - Handling missing values...
+2024-07-29 20:04:41,566 - INFO - Filled 'CompetitionDistance' missing values with median.
+2024-07-29 20:04:41,585 - INFO - Filled 'CompetitionOpenSinceMonth' and 'CompetitionOpenSinceYear' with 0.
+2024-07-29 20:04:41,671 - INFO - Filled promo-related missing values with default values.
+2024-07-29 20:04:41,671 - INFO - Filled 'Open' missing values with 0.
+2024-07-29 20:04:41,843 - INFO - Handling outliers...
+2024-07-29 20:04:41,859 - INFO - Replaced outliers in 'Sales' with median.
+2024-07-29 20:04:41,874 - INFO - Replaced outliers in 'CompetitionDistance' with median.
+2024-07-29 20:04:41,874 - INFO - Performing feature engineering...
+2024-07-29 20:04:44,728 - INFO - Created 'CompetitionOpenSinceDate'.
+2024-07-29 20:04:45,571 - INFO - Extracted date-related features: Year, Month, Day, WeekOfYear, DayOfWeek.
+2024-07-29 20:04:45,571 - INFO - Handling missing values...
+2024-07-29 20:04:45,571 - INFO - Filled 'CompetitionDistance' missing values with median.
+2024-07-29 20:04:45,587 - INFO - Filled 'CompetitionOpenSinceMonth' and 'CompetitionOpenSinceYear' with 0.
+2024-07-29 20:04:45,587 - INFO - Filled promo-related missing values with default values.
+2024-07-29 20:04:45,587 - INFO - Filled 'Open' missing values with 0.
+2024-07-29 20:04:45,587 - INFO - Handling outliers...
+2024-07-29 20:04:45,587 - INFO - Replaced outliers in 'Sales' with median.
+2024-07-29 20:04:45,587 - INFO - Replaced outliers in 'CompetitionDistance' with median.
+2024-07-29 20:04:45,587 - INFO - Performing feature engineering...
+2024-07-29 20:04:45,649 - INFO - Created 'CompetitionOpenSinceDate'.
+2024-07-29 20:04:45,696 - INFO - Extracted date-related features: Year, Month, Day, WeekOfYear, DayOfWeek.
+2024-07-29 20:04:45,696 - INFO - Preprocessing pipeline applied successfully.
+2024-07-29 20:04:45,696 - INFO - Processed train_store dataset shape: (1017209, 23)
+2024-07-29 20:04:45,696 - INFO - Processed test_store dataset shape: (41088, 23)
+2024-07-29 20:05:26,815 - INFO - Analyzing distribution of promotions in training and test sets...
+2024-07-29 20:05:29,486 - INFO - Plotted distribution of promotions in training and test sets.
+2024-07-29 20:05:29,486 - INFO - Graph formed successfully.
+2024-07-29 20:05:29,515 - INFO - Analyzing sales behavior around holidays...
+2024-07-29 20:05:31,312 - INFO - Plotted sales behavior around holidays.
+2024-07-29 20:05:31,343 - INFO - Graph formed successfully.
+2024-07-29 20:05:42,525 - INFO - Analyzing seasonal purchase behaviors...
+2024-07-29 20:05:43,498 - INFO - Plotted seasonal purchase behaviors.
+2024-07-29 20:05:43,498 - INFO - Graph formed successfully.
+2024-07-29 20:08:54,571 - INFO - Logger initialized and ready to log the steps.
+2024-07-29 20:08:58,043 - INFO - Loading datasets...
+2024-07-29 20:08:59,231 - INFO - Datasets loaded successfully.
+2024-07-29 20:08:59,231 - INFO - train dataset shape: (1017209, 9)
+2024-07-29 20:08:59,232 - INFO - store dataset shape: (1115, 10)
+2024-07-29 20:08:59,232 - INFO - test dataset shape: (41088, 8)
+2024-07-29 20:08:59,232 - INFO - sample_submission dataset shape: (41088, 2)
+2024-07-29 20:08:59,545 - INFO - Datasets merged successfully.
+2024-07-29 20:08:59,545 - INFO - train_store dataset shape: (1017209, 18)
+2024-07-29 20:08:59,545 - INFO - test_store dataset shape: (41088, 18)
+2024-07-29 20:09:11,664 - INFO - Handling missing values...
+2024-07-29 20:09:11,723 - INFO - Filled 'CompetitionDistance' missing values with median.
+2024-07-29 20:09:11,740 - INFO - Filled 'CompetitionOpenSinceMonth' and 'CompetitionOpenSinceYear' with 0.
+2024-07-29 20:09:11,836 - INFO - Filled promo-related missing values with default values.
+2024-07-29 20:09:11,836 - INFO - Filled 'Open' missing values with 0.
+2024-07-29 20:09:12,007 - INFO - Handling outliers...
+2024-07-29 20:09:12,023 - INFO - Replaced outliers in 'Sales' with median.
+2024-07-29 20:09:12,039 - INFO - Replaced outliers in 'CompetitionDistance' with median.
+2024-07-29 20:09:12,039 - INFO - Performing feature engineering...
+2024-07-29 20:09:14,941 - INFO - Created 'CompetitionOpenSinceDate'.
+2024-07-29 20:09:15,925 - INFO - Extracted date-related features: Year, Month, Day, WeekOfYear, DayOfWeek.
+2024-07-29 20:09:15,925 - INFO - Handling missing values...
+2024-07-29 20:09:15,941 - INFO - Filled 'CompetitionDistance' missing values with median.
+2024-07-29 20:09:15,941 - INFO - Filled 'CompetitionOpenSinceMonth' and 'CompetitionOpenSinceYear' with 0.
+2024-07-29 20:09:15,941 - INFO - Filled promo-related missing values with default values.
+2024-07-29 20:09:15,941 - INFO - Filled 'Open' missing values with 0.
+2024-07-29 20:09:15,941 - INFO - Handling outliers...
+2024-07-29 20:09:15,941 - INFO - Replaced outliers in 'Sales' with median.
+2024-07-29 20:09:15,941 - INFO - Replaced outliers in 'CompetitionDistance' with median.
+2024-07-29 20:09:15,941 - INFO - Performing feature engineering...
+2024-07-29 20:09:16,050 - INFO - Created 'CompetitionOpenSinceDate'.
+2024-07-29 20:09:16,097 - INFO - Extracted date-related features: Year, Month, Day, WeekOfYear, DayOfWeek.
+2024-07-29 20:09:16,097 - INFO - Preprocessing pipeline applied successfully.
+2024-07-29 20:09:16,097 - INFO - Processed train_store dataset shape: (1017209, 23)
+2024-07-29 20:09:16,097 - INFO - Processed test_store dataset shape: (41088, 23)
+2024-07-29 20:09:39,607 - INFO - Analyzing distribution of promotions in training and test sets...
+2024-07-29 20:09:41,338 - INFO - Plotted distribution of promotions in training and test sets.
+2024-07-29 20:09:41,338 - INFO - Graph formed successfully.
+2024-07-29 20:09:45,069 - INFO - Analyzing sales behavior around holidays...
+2024-07-29 20:09:46,583 - INFO - Plotted sales behavior around holidays.
+2024-07-29 20:09:46,630 - INFO - Graph formed successfully.
+2024-07-29 20:16:52,287 - INFO - Analyzing seasonal purchase behaviors...
+2024-07-29 20:16:53,070 - INFO - Plotted seasonal purchase behaviors.
+2024-07-29 20:16:53,070 - INFO - Graph formed successfully.
+2024-07-29 20:16:56,513 - INFO - Analyzing correlation between sales and number of customers...
+2024-07-29 20:16:56,722 - INFO - Correlation between Sales and Number of Customers: 0.75
+2024-07-29 20:17:00,993 - INFO - Plotted correlation between sales and number of customers.
+2024-07-29 20:17:01,009 - INFO - Graph formed successfully.
+2024-07-29 20:17:01,040 - INFO - Analyzing the effect of promotions on sales...
+2024-07-29 20:17:01,606 - INFO - Plotted the effect of promotions on sales.
+2024-07-29 20:17:01,606 - INFO - Graph formed successfully.
+2024-07-29 20:17:05,809 - INFO - Graph formed successfully.
+2024-07-29 20:17:05,861 - INFO - Analyzing customer behavior during store open and closing times...
+2024-07-29 20:17:07,172 - INFO - Plotted customer behavior during store open and closing times.
+2024-07-29 20:17:07,219 - INFO - Graph formed successfully.
+2024-07-29 20:17:25,960 - INFO - Graph formed successfully.
+2024-07-29 20:17:26,793 - INFO - Analyzing the effect of assortment type on sales...
+2024-07-29 20:17:27,737 - INFO - Plotted effect of assortment type on sales.
+2024-07-29 20:17:27,737 - INFO - Graph formed successfully.
+2024-07-29 20:17:27,756 - INFO - Analyzing the impact of competitor distance on sales...
+2024-07-29 20:17:31,947 - INFO - Plotted impact of competitor distance on sales.
+2024-07-29 20:17:31,947 - INFO - Graph formed successfully.
+2024-07-29 20:17:31,996 - INFO - Analyzing sales trend for stores with new competitors...
+2024-07-29 20:17:33,426 - INFO - Plotted sales trend for stores with new competitors.
+2024-07-29 20:17:33,473 - INFO - Graph formed successfully.
